@@ -1,0 +1,136 @@
+body{font-size:12pt;background-color: #fff;width: 100%; height: 100%}
+h3{color: #333; font-family: 'Alegreya Sans SC', sans-serif; font-size: 1.25em;font-weight:400; text-align: center;
+ height:2em;margin-bottom: 1em;}
+h4{color: #555;width: 75%; font-family: 'Alegreya Sans SC', sans-serif; font-size: 1.75em;font-weight:900; text-align: center;padding:.25em;
+ margin: 1em 0 3em 12%; border-bottom: 1px solid #dcdcdc;}
+
+ h6{color: #555;width: 75%; font-family: 'Alegreya Sans SC', sans-serif; font-size: 1.25em;font-weight:400; margin: 1em; text-align: center;}
+
+hr{margin: 2em 0 1em 0; color: #FFAC99} 
+label{display: block; margin: .5em 0 .5em 25%;padding-left:1em; font-size:1.125em; color: #FFAC99}
+input{margin: .25em 0 0 25%; padding: 0.5em; border-radius: 3px; border: 1px solid #dcdcdc; color: #6E7C90; font-size : .95em;}
+input[type="submit"]{margin:1em 0 0 .5em}
+
+.announce{width: 50%; margin-left: 25%; height: auto; padding: 2.5%}
+.arrow{text-decoration: none; font-family: 'Alegreya SC', sans-serif;}
+.logotext{color:#FF4419;font-family: 'Shrikhand', cursive, Arial, Helvetica, sans-serif; font-size: 2.5em; line-height: 200% }
+
+.logoRegContainer{ margin:0 .5em .25em 0; width: 100%; height: 50%; display: block }
+
+.whateversearch{width: 50%; margin: 0 0 0 3em; }
+.search input[type="text"]{width: 15em; padding: .5em; font-size: .75em; border: 1px solid #dcdcdc; border-radius: 4px; margin: .5em 0 0 0; font-weight: 100}
+.search input[type="submit"]{width: 75px; padding: .3em; margin: 0; border-radius: 4px; font-size: 1em; font-weight: 400; background-color: #FF4419; color: #fff}
+
+.grid{display: grid; grid-column-gap:10px; grid-template-columns: 250px 250px 250px; list-style: none; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 200; color: #222 }
+.grid div{margin: 1em 0 0 0;}
+.grid li{display: block}
+.gprod{background-color: #fff; padding: 5px; margin: .5em 0 .5em 0; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 200;font-size: 0.95em}
+.gprod img{width:300px;max-width: 100%; height:auto; max-height: 230px; vertical-align: top;}
+.gprod p{font-size: .9em;font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 200; margin: .5em}
+
+#logo{width: 60%; float: left; margin: 0 0 0 1em}
+#logo form{display: inline; margin: 0 0 0 1.5em }
+#reg{width: 38%; float: right; text-align: right; color: #00A8CC}
+#reg ul li{display: inline; list-style-type: none; font-size: .95em; text-align: right;margin:0;line-height: 250%;padding: 0}
+#logo li{display: inline; list-style-type: none; }
+
+
+
+ #container{
+ 	height: 100%;
+ 	width: 95%;
+ 	margin:0 0 0 2.5%;
+ 	background-color: #FFF;
+ 	display: block;
+ 	overflow: hidden;
+ }
+
+
+ #header{width:100%; height: 30%; /*border-bottom: 1px solid #dcdcdc;*/ margin: 0;display: flex;}
+ 
+ #nav{margin:1em 0 0 20%; width: 70%; background-color: #fff; padding: 5px; display: block; } 
+ #nav ul li{display: inline; list-style-type: none;font-size: .9em;font-family: 'Alegreya Sans', sans-serif;margin: 0 .25em 0 0; color:#00A8CC}
+ #nav a:link{text-decoration: none; color:#00A8CC}
+ #nav a:visited{text-decoration: none; color:#00A8CC}
+ #nav a:hover{text-decoration: none; color:#FF4419}
+
+ /*Main div contains grid container and right side container*/
+
+ #main{width: 100%; height:70%; margin: .5em 0 0 0;font-size: 1em; }
+
+ #gridcontainer{float: left; width: 75%; background-color: transparent; color: #222; margin: 0}
+ #gridcontainer ul{margin: 0}
+ #gridcontainer li{list-style-type: none;}
+
+ #adcontainer{position: fixed; top:25%; right: 2.5%; width: 22.5%; height:auto; background-color: #e0f5f5;
+  font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 200; padding: 1em; word-wrap: wrap; font-size: 3em}
+ 
+
+ /* ---- FLEXBOX product container STYLE ---- */
+
+ .products { width: 75%; display: flex; flex-wrap: wrap}
+ .prodContainer {padding: 1%; flex: 1 18%; flex-direction: column;border: 1px solid #dcdcdc}
+ .prodImg {width: 45%;max-height:auto;margin: 0;padding-bottom: 20%; border: 1px solid #8b0000 }
+ .prodImg img{max-width:100%;}
+ .prodInfo {margin-top:auto;padding-top:20px;font-family: Yanone Kaffeesatz; font-weight: 200; text-align: justify}
+ .prodInfo div{margin: 0}
+ .prodInfo p{margin:0;margin-top: .25em; }
+ 
+ /*single product view*/
+
+   #detailMain{font-size:.9em; color: #333; width: 70%;height:auto; margin-top:2em;font-family: 'Alegreya Sans', sans-serif; overflow: hidden; background-color: #F7FEFE}
+   #detailMain h4{margin: 1em 0 0 1em;}
+
+   #productDetail{float: left; max-width:55%;margin: 2em 0 0 .5em }
+   #productDetail p{margin: .5em 0 .25em 0}
+
+   #productImg{max-width:100%;overflow: hidden; margin: 0 0 2em 1em }
+   #productImg img{max-width: 100%}
+
+   #storedetail{max-width: 35%;padding: 1em;float: right;  font-size: 1.125em}
+   #storedetail li {margin:1em 0 0 0; color: #246DC0; display: block;}
+
+   #social{margin: 1em 0 0 0;height:3em;padding:1em; width:auto; overflow: hidden;}
+   #social ul{display: inline; padding: 0; margin: 0 }
+   #social li{display: inline; margin: .2em;padding: 1em; width: 80px; height: 80px}
+
+   .twitter, .facebook, .pinterest, .google, .instagram {width: 30px; height: 30px; border: none; margin: 1em;background-size: contain;background-repeat: no-repeat; background-position: 50% 50%}
+
+   .twitter{background-image: url('/images/social/twitter.png');}
+   .facebook{background-image: url('/images/social/facebook.png');}
+   .pinterest{background-image: url('/images/social/pinterest.png');}
+   .google{background-image: url('/images/social/g+.png');}
+   .instagram{background-image: url('/images/social/instagram.png')}   
+
+ /*registration and SignIn*/
+  #lr_position{margin: 2em 0 0 10%; width: 75%; height:50%;}
+
+ .p_signin{background-color:#EDF2F7; padding: 1em 0 3em 0; margin: 0; box-shadow:1px 1px 1px 1px #dcdcdc;height:48%}
+ .p_reg{background-color:#EDF2F7; padding: 1em 0 3em 0; box-shadow:1px 1px 3px 1px #dcdcdc; height:48%}
+ .divider{border-bottom: 1px solid #FFAC99; padding: 0; margin: 2em 0
+ 2em 0;}
+
+ /*admin and product edits*/
+
+   #editMain{
+    width: 100%;
+    position: relative;
+    top: .5em; 
+    padding: 0;
+    margin: .5em 0 0 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+  }
+
+  #editMain .detail{max-width:40%;height: auto;background-color: #f5f5f5; float: left; padding: 1em; margin: .5em 0 0 2em; }
+  #editMain .editData {width:40%; height: auto; float: right; background-color: #f5f5f5; margin: .5em 2em 0 0; padding: 1em;  }
+  .img{max-width: 100%;overflow: hidden; margin: 0 0 2em 1em;}
+  .img img{max-width: 100%; height: auto}
+  .editData div{margin: 2em1em}
+  .editData form{font-size: .95em; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 300}
+  .editData legend{color:#027797; margin : .25em 0 0 0; font-weight: 400; display: inline;}
+  .editData input{margin: .5em 0 .5em .25em}
+
+   /*#editcontainer{width: 80%; margin: 2em 0 0 10%; background-color: #B1FEFF;}
+   .currinfo{float: right; max-width: 45%; height: auto;border:1px solid  #BFECF1;}
+   .editinfo{float: left; max-width: 45%; height: auto; border:1px solid #F0BCEB;} */
